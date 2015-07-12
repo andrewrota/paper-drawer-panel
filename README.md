@@ -14,8 +14,8 @@ Example:
 
 ```html
 <paper-drawer-panel>
-  <div drawer> Drawer panel... </div>
-  <div main> Main panel... </div>
+  <div class="js-drawer"> Drawer panel... </div>
+  <div class="js-main"> Main panel... </div>
 </paper-drawer-panel>
 ```
 
@@ -26,11 +26,11 @@ Example:
 
 ```html
 <paper-drawer-panel>
-  <paper-header-panel drawer>
+  <paper-header-panel class="js-drawer">
     <paper-toolbar></paper-toolbar>
     <div> Drawer content... </div>
   </paper-header-panel>
-  <paper-header-panel main>
+  <paper-header-panel class="js-main">
     <paper-toolbar></paper-toolbar>
     <div> Main content... </div>
   </paper-header-panel>
@@ -45,13 +45,13 @@ Example:
 
 ```html
 <paper-drawer-panel>
-  <paper-header-panel drawer>
+  <paper-header-panel class="js-drawer">
     <paper-toolbar>
       <div>Application</div>
     </paper-toolbar>
     <div> Drawer content... </div>
   </paper-header-panel>
-  <paper-header-panel main>
+  <paper-header-panel class="js-main">
     <paper-toolbar>
       <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
       <div>Title</div>
@@ -65,7 +65,7 @@ To position the drawer to the right, add `right-drawer` attribute.
 
 ```html
 <paper-drawer-panel right-drawer>
-  <div drawer> Drawer panel... </div>
-  <div main> Main panel... </div>
+  <div class="js-drawer"> Drawer panel... </div>
+  <div class="js-main"> Main panel... </div>
 </paper-drawer-panel>
 ```

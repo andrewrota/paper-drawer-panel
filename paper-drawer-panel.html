@@ -123,12 +123,12 @@ To change the drawer container when it's in the right side:
         selected="[[selected]]">
 
       <div id="main" style$="[[_computeMainStyle(narrow, rightDrawer, drawerWidth)]]">
-        <content select="[main]"></content>
+        <content select=".js-main"></content>
         <div id="scrim" on-tap="closeDrawer"></div>
       </div>
 
       <div id="drawer" style$="[[_computeDrawerStyle(drawerWidth)]]">
-        <content select="[drawer]"></content>
+        <content select=".js-drawer"></content>
       </div>
 
     </iron-selector>
